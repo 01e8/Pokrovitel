@@ -1,0 +1,167 @@
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 64, 34);
+}
+
+#noise {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(desimg/giff/noise24.gif) #000000 repeat 50%;
+    background-size: 100%;
+    opacity: 0.9;
+    position: fixed;
+}
+
+#menu {
+    margin-left: calc(50% - 545px);
+    width: 220px;
+    height: auto;
+    background: black;
+    position: absolute;
+}
+
+#content {
+    margin-left: calc(50% - 315px);
+    width: 860px;
+    height: auto;
+    background: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+}
+
+#welcome {
+    margin-left: calc(50% - 383px);
+    margin-top: 50px;
+    position: absolute;
+}
+
+#blood {
+    margin-left: calc(50% - 360px);
+    margin-top: 170px;
+    width: 720px;
+    position: absolute;
+}
+
+#logo {
+    margin-left: calc(50% - 50px);
+    margin-top: 65px;
+    margin-bottom: 60px;
+}
+
+.mainmenu {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 9pt;
+    cursor: pointer;
+}
+.mainmenu:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.menutext{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+.whiteline {
+    background-color: white;
+    width: 70%;
+    height: 2px;
+    margin-left: 15%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#earth {
+    margin-left: calc(50% - 28px);
+}
+
+#chlang {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#skull {
+    margin-left: calc(50% - 80px);
+}
+
+.addv {
+    width: 140px;
+    margin-left: calc(50% - 70px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#stax {
+    margin-top: 260px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.cmbk {
+    font-family: 'Times New Roman';
+    font-size: 17pt;
+    width: 330px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.imghome {
+    width: 330px;
+    height: 330px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+
+.cennik {
+    width: inherit;
+    text-align: right;
+}
+
+#botttom {
+    width: 860px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.addh {
+    width: 500px;
+    margin-left: calc(50% - 250px);
+    margin-right: calc(50% - 250px);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
